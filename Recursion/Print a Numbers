@@ -1,0 +1,15 @@
+public class PrintNumber{
+    public static void printnumber(int n){
+    //base case
+    if(n==1){
+        System.out.println(n);
+        return;
+    }
+    printnumber(n-1);
+    System.out.println(n);
+   }
+    public static void main(String args[]){
+    int n=10;
+    printnumber(n);
+    }
+}
