@@ -9,7 +9,7 @@ public class GetItBit {
         }
 }
     public static void main(String args[]){
-    System.out.println("Bit at ith position : "+ getitbit(10,2));
+    System.out.println("Bit at ith position is : "+ getitbit(10,2));
     }
 }
 
